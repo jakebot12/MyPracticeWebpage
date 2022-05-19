@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Contact Me
+    </title>
+</head>
+<body>
+    <H1>
+        Contact List
+    </H1>
+    <hr>
+    <H4>
+        Email:
+    </H4>
+    <p>
+        jake.gurey@Microchip.com
+    </p>
+    <br>
+    <hr>
+    <H4>
+        Mobile Phone:
+    </H4>
+    <p>
+        1-408-439-2576
+    </p>
+    <hr>
+    
+        <H3>
+            Request an Appointment
+        </H3>
+    <form class="" action="mailto:jake.gurley@microchip.com" method="post" enctype="text/plain">
+        <fieldset style="width: 40%">
+            <p>
+                <p>
+                    <label>Your Name:</label>
+                </p>
+                <input name="firstName" type="text" style="width: 47.75%" placeholder="First">
+                <input name="lastName" type="text" style="width: 47.75%" placeholder="Last">
+            </p> 
+            <fieldset style="border-width: 1px" >
+                <p style="width: 90%">
+                    <p>
+                        <label>Please provide a preferred phone number below:</label>
+                    </p>
+                    <input name="phoneNumber" type="tel">
+                </p>
+            
+                <p style="width: 90%">
+                    <P>
+                        <label>What type of phone is this?</label>
+                    </P>
+                        
+                    <label for="phoneRad1">Mobile</label>
+                    <input id="phoneRad1" type="radio">
+                    <label for="phoneRad2">Home</label>
+                    <input id="phoneRad2" type="radio">
+                    <label for="phoneRad3">Work</label>
+                    <input id="phoneRad3" type="radio">   
+                </p>
+            </fieldset>
+            <br>
+            <fieldset style="border-width: 1px">
+                <p>
+                    <label for="emailget">Please enter your email below:</label>
+                </p>
+                <input id="emailget" name="email" style="width: 97.5%" placeholder="Email" type="email">
+            </fieldset>
+            <br>
+            <fieldset style="border-width: 1px">
+                <p>
+                    <p>
+                        <label for="DateInput">Please select desired date below:</label>
+                    </p>
+                    <input id="DateInput" name="date" type="date">
+                </p>
+            </fieldset>
+            
+            <p>
+                <Label for="Reason">Please write a brief reason for this meeting below:</Label>
+            </p>
+            <P>
+                <input id="Reason" name="reason" type="text" style="height: 50px; width: 98%;" >
+            </P>
+            <p>
+                <label for="fileUpload">Upload Attachment:</label>
+                <input id="fileUpload" name="fileName" type="file">
+            </p>
+            
+            <input type="submit">
+        </fieldset>
+
+        
+        
+    </form>
+    
+</body>
+</html>
