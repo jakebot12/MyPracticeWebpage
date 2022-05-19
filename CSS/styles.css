@@ -9,3 +9,7 @@ hr {
     border-color: white;
     width: 90%;
 }
+
+H1, H3 {
+    color:darkcyan;
+}
