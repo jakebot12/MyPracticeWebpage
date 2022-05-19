@@ -1,0 +1,11 @@
+body {
+    background-color: aliceblue;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    height: 3px;
+    border-color: white;
+    width: 90%;
+}
